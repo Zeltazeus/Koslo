@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import Navbar from './Navbar';
-import '../styles/globals.css';
 
 const Layout = ({ children, title = 'Koslo - Synthetic Rubber Trading' }) => {
     return (
